@@ -1,11 +1,15 @@
-import './App.css';
+import React from 'react'
+
+import Login from '../src/pages/login'
 
 function App() {
   return (
     <div className="App">
-      <h1>Brabão</h1>
+      <Login/>
     </div>
   );
 }
 
 export default App;
+
+

@@ -6,10 +6,23 @@ O projeto tem como objetivo desenvolver uma funcionalidade que permite ao usuár
 A Yes We Code, centro de treinamento que capacita pessoas para o mercado de trabalho na área de tecnologia da informação, firmou uma parceria com a startup Sopha Way com o objetivo de trazer para os alunos a experiência real do mercado. 
 
 ### `Equipe de desenvolvimento`
-Thiago Ferreira Rodrigues - 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/thfrod)](https://github.com/thfrod)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thiago-ferreira-rodrigues-6753341b3)](https://www.linkedin.com/in/thiago-ferreira-rodrigues-6753341b3)
-
-Cássia Viviane Pura - 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/cassiapura)](https://github.com/cassiapura)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cassia-viviane-29244551)](https://www.linkedin.com/in/cassia-viviane-29244551)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/thfrod">
+        <img src="https://avatars.githubusercontent.com/u/63413719" width="100px;" alt="Foto do Thiago Ferreira Rodrigues no GitHub"/><br>
+        <sub>
+          <b>Thiago Ferreira</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/cassiapura">
+        <img src="https://avatars.githubusercontent.com/u/85297506" width="100px;" alt="Foto da Cássia no GitHub"/><br>
+        <sub>
+          <b>Cássia Pura</b>
+        </sub>
+      </a><br>
+    </td>
+  <tr/>
+<table/>

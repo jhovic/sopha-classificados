@@ -1,12 +1,15 @@
 *{
+/*Variáveis de cores*/
+  --cinza:#C4C4C4;
+  --rosa-roxo:#C00046;
+  --branco:#FFFFFF;
+/*-----------------------*/
+
   margin: 0;
-  /*background-image:"../../../bgSopha.png";*/
-  background-color: #121214;
-  color: white;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto Slab','Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans','Roboto Slab','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

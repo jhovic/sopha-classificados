@@ -24,5 +24,14 @@ A Yes We Code, centro de treinamento que capacita pessoas para o mercado de trab
         </sub>
       </a><br>
     </td>
+    <td align="center">
+      <a href="https://github.com/jhovic">
+        <img src="https://avatars.githubusercontent.com/u/60910540" width="100px;" alt="Foto do John no GitHub"/><br>
+        <sub>
+          <b>Cássia Pura</b>
+        </sub>
+      </a><br>
+    </td>
+
   <tr/>
 <table/>

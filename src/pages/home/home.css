@@ -1,0 +1,82 @@
+.Home{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--roxo);
+    width: 100%;
+    
+}
+a{
+    color: var(--branco);
+}
+.titulo{
+    margin:5% 10%;
+}
+.titulo h1{
+    font-weight: 200;
+    color:var(--branco);
+    font-size: 40px;
+}
+.formBuscaCidade input{
+    width: 366px;   
+    height: 38px;
+}
+.formBuscaCidade button{
+    margin-left: 5px;
+    width: 5rem;   
+    height: 54px;
+}
+
+.formBuscaCidade p{
+    font-weight: 300;
+    color: var(--branco);
+}
+.formBuscaCidade a{
+    font-weight: 300;
+    color: white;
+}
+
+.informacoes{
+    margin-block: 2rem;
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 5px;  
+}
+.card{
+    display: flex;
+}
+
+.texto-card{
+    color: var(--branco);
+    padding:5px;
+}
+.texto-card a{
+    color: var(--amarelo);
+}
+.separadorHorizontal{
+    width: 100%;
+    margin-top: 30px;
+	border: 0;
+    border-top: 1px dashed var(--branco);
+}
+footer{
+    box-sizing: border-box;
+    width:100%;
+    height: 14.6vh; 
+
+    display: flex;
+    justify-content: center;
+    
+    background-color: var(--branco);
+
+    
+    
+    
+}
+footer h4{
+    margin-top: 40px;
+    color: var(--roxo);
+    
+}

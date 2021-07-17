@@ -72,3 +72,10 @@ main div form input[type="submit"]:hover{
     color: var(--branco);
 }
 
+@media screen and (max-width:450px) {
+    .painel{
+        padding: 2rem;
+
+    }
+    
+}

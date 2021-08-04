@@ -1,5 +1,7 @@
+.background{
+    background-image:url("https://images4.alphacoders.com/602/thumb-1920-602239.jpg");
+}
 .Home{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

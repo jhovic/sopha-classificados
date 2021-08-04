@@ -1,0 +1,100 @@
+.userProfile {
+    
+    display: flex;
+}
+
+
+
+/* CSS do lado esquerdo */
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.leftSection img{
+    width: auto;
+    height: auto;
+    margin: 2rem;
+}
+
+
+.leftSection a{
+    text-decoration: none;
+    color: var(--rosa-roxo);
+    
+}
+
+.leftSection hr{
+    
+    width: 100%;
+    
+    border-color: var(--rosa-roxo);
+    opacity: 10%;
+}
+
+.title-userProfile, .title-marketProfile{
+    margin: 0.625rem;
+}
+
+/* CSS do Lado direito */
+.rightSection{
+    background-color: var(--roxo);
+    width: 100%;
+    height: 100%;
+}
+
+.title-rightSection{
+    margin-left: 1.6rem;
+    color: var(--branco);
+}
+
+.painelFormulario{
+    text-align:right;
+    background-color: var(--branco);
+    border-radius: 5px;
+    width: 80%;
+    padding: 4rem;
+    margin:20px;
+    padding-top: 1rem;    
+}
+
+.painelFormulario label{
+    opacity: 50%;
+    margin-left: 0px;
+}
+
+.painelFormulario input, textarea{    
+    margin:9px 10px;
+    border-radius: 3px;
+    width: 75%;
+    padding: 7px;
+    border: 1px solid #6756B26B;
+}
+
+.painelFormulario button{
+    margin-left: 2rem;
+    width: 10rem;   
+    height: 2rem
+}
+.painelFormulario button:last-child{
+    background-color: var(--preto);
+    opacity: 50%;
+}
+
+#posicionaButao{
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
+.textAreaAligner{
+    vertical-align: top;
+}
+
+/* Rodape */
+.rodapeDireitos p{
+    text-align: center;
+    color: var(--branco);
+    padding-bottom: 2.75rem;
+}

@@ -12,8 +12,5 @@ const InputForm = styled.input`
     border-radius: 4px;
     outline: none;
     font-size: 1rem;
-
-
-
 `;
 export default InputForm;

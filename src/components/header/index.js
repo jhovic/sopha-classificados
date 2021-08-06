@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import styled from "styled-components";
 
 const Head = styled.header`
@@ -25,14 +26,15 @@ const Head = styled.header`
     }`;
 
 const Header = () =>(
-    <Head>
-        <ul className="navegacao">
-            <li><a href="https://www.sopha.com.br/">Home</a></li>
-            <li><a href="https://www.sopha.com.br/">Participe</a></li>
-            <li><a href="https://www.sopha.com.br/">Lojas</a></li>
-            <li><a href="https://www.sopha.com.br/">Profissionais</a></li>
-        </ul>
-    </Head>
+	// eslint-disable-next-line react/react-in-jsx-scope
+	<Head>
+		<ul className="navegacao">
+			<li><a href="https://www.sopha.com.br/">Home</a></li>
+			<li><a href="https://www.sopha.com.br/">Participe</a></li>
+			<li><a href="https://www.sopha.com.br/">Lojas</a></li>
+			<li><a href="https://www.sopha.com.br/">Profissionais</a></li>
+		</ul>
+	</Head>
 
 );
 

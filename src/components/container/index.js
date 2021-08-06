@@ -5,5 +5,5 @@ const Container = styled.div`
     padding-left: calc((100% - 940px)/2);
     padding-right: calc((100% - 940px)/2);
 }
-`
+`;
 export default Container;

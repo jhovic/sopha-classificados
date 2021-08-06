@@ -1,39 +1,43 @@
 import React from "react";
 import "./login.css";
-//import { MdEmail, MdLock } from "react-icons/md";
+import {Form} from "@unform/web";
+//import {Scope} from "@unform/core";
+import Input from "../../components/input";
  
 function Login() {
-  return (
-    <>
-        <title>Sopha | Login</title>
-        <main className="Login">
-            <div className="painel">
-                <div className="logo">
-                    <img src="https://planejados.sopha.com.br/images/logo.png"alt="Logo do Sopha"/>
-                </div>
-                <form action="">
-                    <div className="loginInputEmail">
-                        <input type="email" placeholder="digite seu e-mail" required/>
-                    </div>
 
-                    <div className="loginInputPassword">
-                        <input type="password" placeholder="digite sua senha" required />
-                    </div>
+	function handleSubmit(data, {reset}) {
+		console.log(data.lenght);
 
-                    <input type="submit" value="Entrar" id="button"/>
 
-                    <div className="loginEsqueciSenha">
-                        <a href="#">esqueci minha senha</a>
-                    </div>
-                </form>
-                
-            </div>
-            <div className="rodapeDireitos">
-                <p>Sopha © 2021</p>
-            </div>
-        </main>
-    </>
-  );
+		reset();
+	}
+
+	return (
+		<>
+			<title>Sopha | Login</title>
+			<main className="Login">
+				<div className="painel">
+					<div className="logo">
+						<img src="https://planejados.sopha.com.br/images/logo.png"alt="Logo do Sopha"/>
+					</div>
+					<Form className="loginInput"onSubmit={handleSubmit}>
+						{/* <Scope path="user"> */}
+
+						<Input placeholder="Digite seu e-mail: "name="email" type="email" required/>
+						<Input placeholder="Digite sua senha: "name="password" type="password" required/>
+
+						<button type="submit">Entrar</button>
+						{/* </Scope> */}
+					</Form>
+                 
+				</div>
+				<div className="rodapeDireitos">
+					<p>Sopha © 2021</p>
+				</div>
+			</main>
+		</>
+	);
 }
 
 export default Login;

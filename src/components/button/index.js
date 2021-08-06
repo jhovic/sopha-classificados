@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import '../../index.css';
+import "../../index.css";
 
 const Button = styled.button`
     // width: 200px;

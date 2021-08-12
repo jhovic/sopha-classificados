@@ -1,6 +1,6 @@
 import React , { useEffect, useRef } from "react";
 import { useField } from "@unform/core";
-
+import { StyledInput } from "./styles";
 
 // eslint-disable-next-line react/prop-types
 export default function Input({ name, ...rest}) {
@@ -16,7 +16,7 @@ export default function Input({ name, ...rest}) {
 	}, [fieldName,registerField]);
 
 	return(  
-		<input ref={inputRef} {...rest}/>
+		<StyledInput ref={inputRef} {...rest}/>
 	);
 }
 

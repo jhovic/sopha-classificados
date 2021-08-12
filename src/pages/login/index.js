@@ -7,9 +7,8 @@ import Input from "../../components/input";
 function Login() {
 
 	function handleSubmit(data, {reset}) {
-		console.log(data.lenght);
-
-
+		console.log(data);
+		
 		reset();
 	}
 
@@ -24,7 +23,7 @@ function Login() {
 					<Form className="loginInput"onSubmit={handleSubmit}>
 						{/* <Scope path="user"> */}
 
-						<Input placeholder="Digite seu e-mail: "name="email" type="email" required/>
+						<Input placeholder="Digite seu e-mail: " name="email" type="email" required/>
 						<Input placeholder="Digite sua senha: "name="password" type="password" required/>
 
 						<button type="submit">Entrar</button>

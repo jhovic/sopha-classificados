@@ -7,6 +7,7 @@ const Head = styled.header`
     flex-wrap:wrap;
     align-items: center;
     align-content:center;
+    justify-content: space-between;
     height:40px;
     padding: 5px 30px;
     
